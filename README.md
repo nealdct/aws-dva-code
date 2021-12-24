@@ -33,4 +33,4 @@ This course covers all of the following topics that are included in the AWS Cert
 - Monitoring, logging and tracing with Amazon CloudWatch, CloudTrail and AWS X-Ray
 - Security and access management with AWS IAM, Cognito, KMS, ACM, Systems Manager, and Secrets Manager
 
-Learn more and [enroll in this course](https://digitalcloud.training/aws-certified-developer-associate/) now to get started with your AWS Certified Cloud Practitioner certification
+Learn more and [enroll in this course](https://digitalcloud.training/aws-certified-developer-associate/) now to get started with your AWS Certified Developer Associate certification
