@@ -1,4 +1,4 @@
-# AWS Certified Developer Associate (DVA-C01) Course Code
+# AWS Certified Developer Associate (DVA-C02) Course Code
 *By [Digital Cloud Training](https://digitalcloud.training/) - Course Author Neal Davis*
 
 ## How to Use the Course Code
@@ -17,7 +17,7 @@ At the end of each section use the exam cram lesson for quick revision of the im
 
 ***What you will learn: ***
 
-This course covers all of the following topics that are included in the AWS Certified Developer Associate (DVA-C01) exam guide and are featuring on the exam today:
+This course covers all of the following topics that are included in the AWS Certified Developer Associate (DVA-C02) exam guide and are featuring on the exam today:
 
 - AWS Serverless including AWS Lambda, Amazon API Gateway, Amazon DynamoDB, AWS Cognito and the AWS serverless application model (SAM)
 - Docker containers on AWS with Amazon Elastic Container Service (ECS) and AWS Fargate
