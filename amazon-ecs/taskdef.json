@@ -1,0 +1,24 @@
+{
+    "executionRoleArn": "arn:aws:iam::ACCOUNT-NUMBER:role/ecsTaskExecutionRole",
+    "containerDefinitions": [
+        {
+            "name": "sample-website",
+            "image": "nginx",
+            "essential": true,
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "protocol": "tcp",
+                    "containerPort": 80
+                }
+            ]
+        }
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "networkMode": "awsvpc",
+    "cpu": "256",
+    "memory": "512",
+    "family": "ecs-lab"
+}

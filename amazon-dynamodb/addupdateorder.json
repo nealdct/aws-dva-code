@@ -1,0 +1,71 @@
+{
+    "mystore": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "clientid": {
+                        "S": "john@example.com"
+                    },
+                    "created": {
+                        "S": "2020-03-9T08:12Z"
+                    },
+                    "sku": {
+                        "S": "SKU-S523"
+                    },
+                    "category": {
+                        "S": "T-Shirt"
+                    },
+                    "size": {
+                        "S": "Small"
+                    },
+                    "colour": {
+                        "S": "Blue"
+                    },
+                    "qty": {
+                        "N": "1"
+                    },
+                    "price": {
+                        "N": "30"
+                    },
+                    "weight": {
+                        "S": "Light"
+                    } 
+                  
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "clientid": {
+                        "S": "joseph@example.com"
+                    },
+                    "created": {
+                        "S": "2020-04-04T10:12Z"
+                    },
+                    "sku": {
+                        "S": "SKU-R203"
+                    },
+                    "category": {
+                        "S": "Socks"
+                    },
+                    "size": {
+                        "S": "Small"
+                    },
+                    "qty": {
+                        "N": "1"
+                    },
+                    "price": {
+                        "N": "20"
+                    },
+                    "weight": {
+                        "S": "Light"
+                    } 
+                  
+                }
+            }
+        }
+    ]
+
+}
+

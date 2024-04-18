@@ -1,0 +1,29 @@
+{
+    "taskDefinition": "ecs-demo:1",
+    "cluster": "ecs-cluster",
+    "loadBalancers": [
+        {
+            "targetGroupArn": "TARGET-GROUP-ARN",
+            "containerName": "sample-website",
+            "containerPort": 80
+        }
+    ],
+    "desiredCount": 1,
+    "launchType": "FARGATE",
+    "schedulingStrategy": "REPLICA",
+    "deploymentController": {
+        "type": "CODE_DEPLOY"
+    },
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "subnets": [
+                "SUBNET-ID",
+                "SUBNET-ID"
+            ],
+            "securityGroups": [
+                "SECURITY-GROUP-ID"
+            ],
+            "assignPublicIp": "ENABLED"
+        }
+    }
+}
