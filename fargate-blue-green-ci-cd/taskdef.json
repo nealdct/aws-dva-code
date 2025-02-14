@@ -1,5 +1,5 @@
 {
-    "executionRoleArn": "arn:aws:iam::ACCOUNT-NUMBER:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::<ACCOUNT-ID>:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "name": "sample-website",

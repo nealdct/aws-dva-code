@@ -1,5 +1,5 @@
 {
-    "taskDefinition": "ecs-demo:1",
+    "taskDefinition": "ecs-lab:1",
     "cluster": "ecs-cluster",
     "loadBalancers": [
         {
