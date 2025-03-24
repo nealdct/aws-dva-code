@@ -1,8 +1,3 @@
-### Code updated for Python ###
-
-## Create a function with the Python runtime and use the code below:
-
-```python
 import json
 
 def lambda_handler(event, context):
@@ -14,4 +9,4 @@ def lambda_handler(event, context):
             print(f"Error processing record: {e}")
     
     return {"statusCode": 200, "body": "Processed successfully"}
-```
+

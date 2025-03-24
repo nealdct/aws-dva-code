@@ -45,9 +45,9 @@ Use case should be Lambda
 Attach the lambda-apigateway-policy
 
 
-## 3 - Create the Lambda function [UPDATED FOR PYTHON - DO NOT USE NODE]
+## 3 - Create the Lambda function
 
-Create a function named LambdaFunctionOverHttps
+Create a function named "LambdaFunctionOverHttps"
 
 Use the latest Python runtime 
 
@@ -154,7 +154,7 @@ aws lambda invoke --function-name LambdaFunctionOverHttps --payload file://input
 
 ## 5 - Create REST API
 
-Create a REST API named DynamoDBOperations
+Create a REST API named "DynamoDBOperations"
 
 New API with a regional endpoint
 

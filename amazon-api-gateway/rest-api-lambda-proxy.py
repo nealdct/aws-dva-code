@@ -1,8 +1,3 @@
-### LAB CODE UPDATED FOR PYTHON ###
-
-## Create a Python Function - NOT NodeJS
-
-```python
 import json
 
 def lambda_handler(event, context):
@@ -52,4 +47,3 @@ def lambda_handler(event, context):
     
     print("response:", json.dumps(response))
     return response
-```
