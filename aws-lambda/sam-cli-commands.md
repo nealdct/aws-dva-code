@@ -1,7 +1,10 @@
-
 ## Deploy Hello World application
 
-sam init --runtime python3.7 --dependency-manager pip --app-template hello-world --name sam-app
+python --version
+
+***update Python runtime version as per output from previous command***
+
+sam init --runtime python3.9 --dependency-manager pip --app-template hello-world --name sam-app
 
 cd sam-app
 
